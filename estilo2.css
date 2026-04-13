@@ -29,8 +29,30 @@ body{
     background:#ff4c60;
 }
 
-#video{
+.video{
     display: flex;
     justify-content: center;
     margin-top: 30px;   
+}
+.fechas{
+    display: grid;
+    place-content: center;
+    color: #ff4c60;
+    margin-top: 30px;
+
+}
+h2{
+    display: grid;
+    place-content: center;
+    color: #d39ca3;
+    margin-top: 30px;
+}
+#tabla{
+    color: rgb(167, 60, 60);
+    text-align: center;
+    border: 2px solid rgb(167, 60, 60)
+}
+.flyer{
+    width: 100px;
+    height: auto;
 }

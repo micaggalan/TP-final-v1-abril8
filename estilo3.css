@@ -5,6 +5,7 @@ body{
 h2{
     display: grid;
     place-content: center;
+    color: #d39ca3;
 }
 #banner{
   width: 100%;
