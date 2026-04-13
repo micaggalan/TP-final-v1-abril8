@@ -34,7 +34,7 @@ body{
     justify-content: center;
     margin-top: 30px;   
 }
-.fechas{
+.proxfechas{
     display: grid;
     place-content: center;
     color: #ff4c60;
@@ -47,6 +47,12 @@ h2{
     color: #d39ca3;
     margin-top: 30px;
 }
+.fechasanteriores{
+    display: grid;
+    place-content: center;
+    color: #ff4c60;
+    margin-top: 30px;
+}
 #tabla{
     color: rgb(167, 60, 60);
     text-align: center;
@@ -55,4 +61,16 @@ h2{
 .flyer{
     width: 100px;
     height: auto;
+    transition: 0.3s ease;
+}
+.flyer:hover {
+  transform: scale(4);
+}
+.flyer2{
+    width: 100px;
+    height: auto;
+    transition: 0.3s ease;
+}
+.flyer2:hover{
+      transform: scale(4);
 }
