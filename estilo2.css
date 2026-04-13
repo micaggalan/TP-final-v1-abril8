@@ -42,10 +42,19 @@ body{
 
 }
 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: grid;
     place-content: center;
     color: #d39ca3;
     margin-top: 30px;
+}
+p{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: #222;
 }
 .fechasanteriores{
     display: grid;
@@ -56,7 +65,8 @@ h2{
 #tabla{
     color: rgb(167, 60, 60);
     text-align: center;
-    border: 2px solid rgb(167, 60, 60)
+    border: 2px solid rgb(167, 60, 60);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .flyer{
     width: 100px;
@@ -73,4 +83,13 @@ h2{
 }
 .flyer2:hover{
       transform: scale(4);
+}
+#contador {
+  font-size: 30px;
+  color: #d39ca3;
+  background: rgb(175, 0, 0);
+  padding: 20px;
+  text-align: center;
+  border: 3px solid #d39ca3;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
