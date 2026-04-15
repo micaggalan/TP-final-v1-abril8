@@ -68,12 +68,12 @@ p{
     border: 1px solid rgb(167, 60, 60);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.flyer, .flyer1, .flyer2, .flyer3, .flyer4, .flyer5, .flyer6, .flyer7, .flyer8, .flyer9{
+.flyer, .flyer1, .flyer2, .flyer3, .flyer4, .flyer5, .flyer6, .flyer7, .flyer8, .flyer9, .flyer10, .flyer11, .flyer12, .flyer13, .flyer14{
     width: 100px;
     height: auto;
     transition: 0.3s ease;
 }
-.flyer:hover, .flyer2:hover, .flyer3:hover, .flyer4:hover, .flyer5:hover, .flyer6:hover, .flyer7:hover, .flyer8:hover, .flyer9:hover {
+.flyer:hover, .flyer2:hover, .flyer3:hover, .flyer4:hover, .flyer5:hover, .flyer6:hover, .flyer7:hover, .flyer8:hover, .flyer9:hover, .flyer10:hover, .flyer11:hover, .flyer12:hover, .flyer13:hover, .flyer14:hover {
   transform: scale(4);
 }
 
