@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(219, 209, 209);
     display: grid;
     place-items: center;
     height: 100vh;
@@ -12,10 +12,10 @@ path{
 }
 @keyframes animacion-p3 {
     20%{
-        fill: rgb(211, 192, 192);    
+        fill: rgb(192, 156, 186);    
     }
     40%{
-        fill: rgb(211, 44, 22);
+        fill: rgb(179, 58, 42);
     }    
     60%{
         fill: rgb(161, 161, 184)
