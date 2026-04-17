@@ -33,7 +33,7 @@ body::before {
   display: flex;
   justify-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+  font-size: larger ;
 }
 
 .navbar ul {
@@ -228,4 +228,22 @@ p {
 .tabla td {
   padding: 8px;
   border-top: 1px solid #333;
+}
+#form-mensaje{
+    resize: vertical;
+    height: 150px;
+}
+#formulario{
+    display: grid;
+    place-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(175, 0, 0);
+}
+#formulario>input, #formulario>textarea{
+    background-color: rgb(233, 233, 207);
+    margin: 5px;
+}
+li{
+    display: grid;
+    place-content: center;
 }
