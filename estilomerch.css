@@ -13,10 +13,47 @@ body::before {
   opacity: 0.3; 
   z-index: -1;
 }
-#banner{
-  width: 100%;
+.banner {
+  position: relative;
+  background-image: url("banner.jpg");
+  background-size: cover;
+  background-position: center;
   height: 180px;
-  }
+  width: 100%;
+}
+
+/* Navbar encima */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 55px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Contenido del banner */
+.contenido-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
 h2{
     display: grid;
     place-content: center;
@@ -46,4 +83,26 @@ h2{
 
 .producto:hover {
   transform: scale(1.05);
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.redes a {
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    background: #030000;
+    padding: 12px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    transform: scale(1.2);
+    background: #ff4c60;
 }

@@ -14,9 +14,46 @@ body::before {
   z-index: -1;
 }
 
-#banner {
-    width: 100%;
-    height: 180px;
+.banner {
+  position: relative;
+  background-image: url("banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  width: 100%;
+}
+
+/* Navbar encima */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 55px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Contenido del banner */
+.contenido-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
 }
 
 .redes {
@@ -24,6 +61,7 @@ body::before {
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .redes a {
