@@ -114,9 +114,11 @@ p {
 .flyer24,
 .flyer25,
 .flyer26 {
-    width: 100px;
+    width: 100%;
     height: auto;
     transition: 0.3s ease;
+  max-width: 120px;
+  border-radius: 8px;
 }
 
 .flyer:hover,
@@ -158,4 +160,34 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ff0000;
     text-shadow: 0 0 10px red, 0 0 20px red;
+}
+.fechasanteriores {
+  display: flex;
+  flex-wrap: wrap; /* baja si no entra */
+  gap: 30px;
+  justify-content: center;
+}
+
+.bloque {
+  width: 300px;
+  text-align: center;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #111;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabla th {
+  background-color: #222;
+  padding: 10px;
+}
+
+.tabla td {
+  padding: 8px;
+  border-top: 1px solid #333;
 }
