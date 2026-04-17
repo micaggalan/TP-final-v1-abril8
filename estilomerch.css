@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(219, 209, 209);
+    margin: 0;    
+    background-attachment: fixed;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("background.jpg");
+  background-repeat: repeat;
+  background-size: 800px;
+  opacity: 0.3; 
+  z-index: -1;
+}
+#banner{
+  width: 100%;
+  height: 180px;
+  }
+  h2{
+    display: grid;
+    place-content: center;
+    color: #d39ca3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

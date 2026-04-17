@@ -5,22 +5,22 @@ body {
     height: 100vh;
 }
 path{
-    fill: #332d72;
+    fill:red;
     animation-name: animacion-p3; 
     animation-duration: 1s;
     animation-iteration-count: infinite
 }
 @keyframes animacion-p3 {
     20%{
-        fill: rgb(192, 156, 186);    
+        fill: rgb(219, 209, 209);    
     }
     40%{
-        fill: rgb(179, 58, 42);
+        fill: red;
     }    
     60%{
-        fill: rgb(161, 161, 184)
+        fill: rgb(219, 209, 209);
     }    
     80%{
-        fill: rgb(167, 122, 140);
+        fill: red;
     }
 }
