@@ -2,6 +2,7 @@ body {
     background-color: rgb(219, 209, 209);
     margin: 0;    
     background-attachment: fixed;
+    
 }
 body::before {
   content: "";
@@ -34,6 +35,7 @@ body::before {
   justify-content:last baseline;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger ;
+  
 }
 
 .navbar ul {
@@ -43,7 +45,7 @@ body::before {
 }
 
 .navbar a {
-  color: white;
+  color: #fde6e9;
   text-decoration: none;
 }
 
@@ -53,7 +55,7 @@ body::before {
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: white;
+  color: #d39ca3;
 }
 
 .redes {
@@ -185,7 +187,7 @@ p {
 .flyer24:hover,
 .flyer25:hover,
 .flyer26:hover {
-    transform: scale(4);
+    transform: scale(3);
 }
 
 #contador {

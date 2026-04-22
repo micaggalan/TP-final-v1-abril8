@@ -42,7 +42,7 @@ body::before {
 }
 
 .navbar a {
-  color: white;
+  color: #fde6e9;
   text-decoration: none;
 }
 
@@ -105,4 +105,17 @@ h2{
 .redes a:hover {
     transform: scale(1.2);
     background: #ff4c60;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
