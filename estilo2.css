@@ -31,7 +31,7 @@ body::before {
   width: 100%;
   padding: 55px;
   display: flex;
-  justify-content: center;
+  justify-content:last baseline;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger ;
 }
@@ -229,11 +229,21 @@ p {
   padding: 8px;
   border-top: 1px solid #333;
 }
+.form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    color: #d39ca3;
+    margin-top: 30px;
+}
+
 #form-mensaje{
     resize: vertical;
     height: 150px;
 }
 #formulario{
+    margin-top: 10px;
     display: grid;
     place-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
