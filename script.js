@@ -1,4 +1,4 @@
-const fecha = new Date("2026-04-25T20:00:00");
+const fecha = new Date("2026-05-25T20:00:00");
 
 setInterval(() => {
   const ahora = new Date();
